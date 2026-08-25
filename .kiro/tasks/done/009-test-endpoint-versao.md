@@ -618,8 +618,10 @@ cd .kiro/worktrees/009-test-endpoint-versao
 git branch --show-current
 # Deve mostrar: test/009-test-endpoint-versao
 
-# Abrir PR contra ia-main
-gh pr create --base ia-main --title "009: Expande testes do endpoint /api/versao" --body "Closes task 009
+# Abrir PR contra ia-main no repositório correto (drlima85/bia)
+gh pr create -R drlima85/bia --base ia-main --title "009: Expande testes do endpoint /api/versao" --body "Closes task 009
+
+**PR Criado:** https://github.com/drlima85/bia/pull/1
 
 ## Implementações
 - ✅ Revisão dos testes existentes
