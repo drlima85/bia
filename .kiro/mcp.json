@@ -1,4 +1,5 @@
-"mcpServers": {
+{
+  "mcpServers": {
     "aws-mcp": {
       "command": "uvx",
       "args": [
@@ -11,5 +12,5 @@
         "AWS_PROFILE": "formacaoaws"
       }
     }
+  }
 }
-//Source: https://awslabs.github.io/mcp/servers/ecs-mcp-server/
